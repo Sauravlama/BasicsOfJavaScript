@@ -6,3 +6,6 @@ a=2;
 var a;
 
 console.log(a)
+
+//The weird thing about this code is that we will get the output as 2 even though we havent even declared the variable yet
+
