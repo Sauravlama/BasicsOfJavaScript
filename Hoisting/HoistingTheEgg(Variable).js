@@ -21,3 +21,6 @@ var a=2;
 //and the second one would be execution by the engine where all the execution of the code by looking up to the scope is done
 //So technically the compiler looks at this  a=2; var a; or any assignment like var a = 2; and converts that into two steps, var a; a=2;
 //Essentially the declaration is taken to the top and this process of doing so is called Hoisting
+
+
+//Note 📓 Only declarations are hoisted not the expressions because imagine javascript re arranging the code.
